@@ -1,1 +1,10 @@
-hhhh
+/*  червоний колір до другого та третього посилання */
+ul.list>li:nth-child(2) a,
+ul.list>li:nth-child(3) a {
+    color: red;
+}
+
+/* шрифт 24px до параграфа, який йде після <ul> */
+ul+p {
+    font-size: 24px;
+}
