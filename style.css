@@ -1,10 +1,11 @@
-/*  червоний колір до другого та третього посилання */
-ul.list>li:nth-child(2) a,
-ul.list>li:nth-child(3) a {
+a[href="https://www.youtube.com/"] {
     color: red;
 }
 
-/* шрифт 24px до параграфа, який йде після <ul> */
+a[href="https://validator.w3.org/"] {
+    color: red;
+}
+
 ul+p {
     font-size: 24px;
 }
